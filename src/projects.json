@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name" : "NewInTown",
+        "image": "",
+        "description": "An application that allows users to search for events and accomodations for specific dates to plan their vacation.",
+        "tech": ["HTML", "CSS", "Javascript", "Jquery", "API Calls", "Bulma", "GitHub"],
+        "links": {
+            "gitHub": "https://github.com/rutherford87/NewInTown"
+        }
+    },
+    {
+        "id": 2,
+        "name" : "Pokefyte",
+        "image" : "",
+        "description": "A nostalgic homage to the classic Pokemon figting game. Choose from a wide array of classic pokemon with unique moves consistent with the game. Pokemon stats can be reviewed in the Pokedex and battled in the dashboard. Users must sign in to access the application.",
+        "tech": ["HTML", "CSS", "Javascript", "Jquery", "API Calls", "axios", "Bootstrap", "mySQL", "Heroku", "Github",  "JawsDB"],
+        "links": {
+            "gitHub": "https://github.com/Dylan-Casanova/PokeFyte-The-Game",
+            "deployed": "https://pokyfyte.herokuapp.com/"
+        }
+    },
+    {
+        "id": 3,
+        "name": "TBD",
+        "image": "",
+        "description": "Something Exciting is Coming",
+        "tech": ["TBD", "TBD", "TBD"],
+        "links": {
+            "gitHub": "https://www.google.com",
+            "deployed": "https://www.google.com"
+        }
+    }
+]
