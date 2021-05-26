@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 
 function ProjectDetail(props) {
   return (
@@ -12,8 +13,8 @@ function ProjectDetail(props) {
             <p className="card-text">
                 Technologies Used: {props.tech.join(", ")}
             </p>
-              <a href= {props.links.gitHub}>GitHub Repo</a><br/>
-              <a href= {props.links.deployed}>Depoloyed site</a>
+              <a href= {props.links.gitHub} className="detail-link">GitHub Repo</a><br/>
+              <a href= {props.links.deployed} className="detail-link">Depoloyed site</a>
           </div>
     </div>
   );

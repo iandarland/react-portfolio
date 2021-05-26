@@ -17,7 +17,7 @@ function App() {
         <Wrapper>
           <Container className ="align-content-center mt-4">
             <Row className= "justify-content-center">
-              <Col className= "justify-content-center" xl ={6} md= {9} xs= {11}>
+              <Col className= "justify-content-center" xl ={9} md= {10} xs= {11}>
               <Route exact path="/" component={About} />
               <Route exact path="/about" component={About} />
               <Route exact path="/portfolio" component={Portfolio} />

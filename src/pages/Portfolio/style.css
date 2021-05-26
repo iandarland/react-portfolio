@@ -7,3 +7,14 @@
 .clearback{
     background-color: rgba(255, 255, 255, 0);
 }
+
+.kitten{
+    background-color: rgba(52, 58, 63, 0.589) !important;
+    border-radius: 2% !important;
+    border: 2px solid black !important;
+    color: white
+}
+
+a {
+    color:white
+}

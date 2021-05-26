@@ -41,7 +41,7 @@ function Portfolio () {
             {!project ? (
                 <h3 className="text-center mt-3">Click to Learn More About My Projects</h3>
             ) : (
-                <ProjectDetail className= "kitten"
+                <ProjectDetail
                 name = {project[0].name}
                 image = {project[0].image}
                 links = {project[0].links}
