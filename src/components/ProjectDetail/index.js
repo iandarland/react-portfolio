@@ -8,10 +8,10 @@ function ProjectDetail(props) {
           <div className="card-body">
             <h5 className="card-title">{props.name}</h5>
             <p className="card-text">
-              Description: {props.description}
+              <b>Description</b>: {props.description}
             </p>
             <p className="card-text">
-                Technologies Used: {props.tech.join(", ")}
+                <b>Technologies Used</b>: {props.tech.join(", ")}
             </p>
               <a href= {props.links.gitHub} className="detail-link">GitHub Repo</a><br/>
               <a href= {props.links.deployed} className="detail-link">Depoloyed site</a>
