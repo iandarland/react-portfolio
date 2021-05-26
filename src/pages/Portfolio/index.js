@@ -26,7 +26,7 @@ function Portfolio () {
 
     return(
         <div className= "backstyle">
-        <div className="card clearback">
+        <div className="card ">
             <div className="d-flex mt-3">
             {projectList.map(item => (
                 <ProjectCard 
