@@ -1,6 +1,10 @@
 .kitten{
     background-color: rgba(52, 58, 63, 0.589) !important;
-    border-radius: 2%;
-    border: 2px solid black;
+    border-radius: 2% !important;
+    border: 2px solid black !important;
     color: white
+}
+
+a {
+    color:white
 }

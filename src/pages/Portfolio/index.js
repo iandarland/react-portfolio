@@ -26,7 +26,7 @@ function Portfolio () {
 
     return(
         <div className= "backstyle">
-        <div className="card ">
+        <div className="card kitten">
             <div className="d-flex mt-3">
             {projectList.map(item => (
                 <ProjectCard 
@@ -41,7 +41,7 @@ function Portfolio () {
             {!project ? (
                 <h3 className="text-center mt-3">Click to Learn More About My Projects</h3>
             ) : (
-                <ProjectDetail
+                <ProjectDetail className= "kitten"
                 name = {project[0].name}
                 image = {project[0].image}
                 links = {project[0].links}

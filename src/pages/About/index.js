@@ -6,7 +6,7 @@ import ian from "../../assets/ian.JPG";
 function About() {
   document.title = "About Ian";
   return (
-    <Card style={{ width: "100%" }}>
+    <Card style={{ width: "100%" }} className="kitten">
       <Card.Body className="justify-content-center text-center">
           <Image className="img-fluid w-25 mb-2" src={ian} alt="card-img" md={1} roundedCircle />
         <Card.Title className="text-center">Ian Darland</Card.Title>

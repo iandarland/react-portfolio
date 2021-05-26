@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectDetail(props) {
   return (
-    <div className="card mb-3 m-1" >
+    <div className="card mb-3 m-1" style={{color:"black"}} >
           <img className="card-img-top" src={props.image} alt={props.name} />
           <div className="card-body">
             <h5 className="card-title">{props.name}</h5>
