@@ -2,27 +2,19 @@ import React from "react";
 
 function ProjectDetail(props) {
   return (
-    <div class="card mb-3" style={{width: "540px"}}>
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img src={props.image} alt={props.name} />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
+    <div className="card mb-3 m-1" >
+          <img className="card-img-top" src={props.image} alt={props.name} />
+          <div className="card-body">
+            <h5 className="card-title">{props.name}</h5>
+            <p className="card-text">
               Description: {props.description}
             </p>
-            <p class="card-text">
-                Technologies Used: {props.tech}
+            <p className="card-text">
+                Technologies Used: {props.tech.join(", ")}
             </p>
-            <p class="card-text">
-              <a href= {props.links.gitHub}>GitHub Repo</a>
+              <a href= {props.links.gitHub}>GitHub Repo</a><br/>
               <a href= {props.links.deployed}>Depoloyed site</a>
-            </p>
           </div>
-        </div>
-      </div>
     </div>
   );
 }

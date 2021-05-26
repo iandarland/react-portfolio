@@ -2,17 +2,18 @@
     {
         "id": 1,
         "name" : "NewInTown",
-        "image": "",
+        "image": "https://i.ibb.co/NjR1XCT/New2Town.png",
         "description": "An application that allows users to search for events and accomodations for specific dates to plan their vacation.",
         "tech": ["HTML", "CSS", "Javascript", "Jquery", "API Calls", "Bulma", "GitHub"],
         "links": {
-            "gitHub": "https://github.com/rutherford87/NewInTown"
+            "gitHub": "https://github.com/rutherford87/NewInTown",
+            "deployed": "#"
         }
     },
     {
         "id": 2,
         "name" : "Pokefyte",
-        "image" : "",
+        "image" : "https://i.ibb.co/hdByRch/PokeFyte.png",
         "description": "A nostalgic homage to the classic Pokemon figting game. Choose from a wide array of classic pokemon with unique moves consistent with the game. Pokemon stats can be reviewed in the Pokedex and battled in the dashboard. Users must sign in to access the application.",
         "tech": ["HTML", "CSS", "Javascript", "Jquery", "API Calls", "axios", "Bootstrap", "mySQL", "Heroku", "Github",  "JawsDB"],
         "links": {
@@ -23,7 +24,7 @@
     {
         "id": 3,
         "name": "TBD",
-        "image": "",
+        "image": "https://66.media.tumblr.com/de0dd989d36c17235b521171edd96965/tumblr_inline_ny8x5mt0nR1qhcsyp_500.png",
         "description": "Something Exciting is Coming",
         "tech": ["TBD", "TBD", "TBD"],
         "links": {

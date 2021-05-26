@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Footer() {
   return (
-    <footer className="footer font-small" bg="dark" variant="dark">
+    <footer className="text-center">
       <div className="container text-center py-3">
         © Ian Darland { new Date().getFullYear() }
       </div>

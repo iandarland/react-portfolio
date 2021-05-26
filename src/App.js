@@ -12,10 +12,10 @@ function App() {
   document.title = "Ian Darland";
   return (
     <Router>
-      <div>
+      <div className= "origin">
         <Navigation />
         <Wrapper>
-          <Container className ="justify-content-center">
+          <Container className ="align-content-center mt-4">
             <Row className= "justify-content-center">
               <Col className= "justify-content-center" xl ={6} md= {9} xs= {11}>
               <Route exact path="/" component={About} />

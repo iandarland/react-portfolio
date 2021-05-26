@@ -13,34 +13,38 @@ function Portfolio () {
 
     const [project, setProject] = useState()
 
-    const handleBtnClick = (value) => {
-        // const value = e.target.attributes.id
-        console.log(value)
-        const selected = projectList.filter(item => (item.id = value))
-        console.log(selected)
+    const handleBtnClick = (e) => {
+        const projSelect = e.target.id
+        console.log(projSelect)
+        const selected = projectList.filter(item => item.name === projSelect)
         setProject(selected)
     }
 
+    console.log(project)
+
 
     return(
-        <div>
+        <div className="card">
+            <div className="d-flex mt-3">
             {projectList.map(item => (
                 <ProjectCard 
                 handleBtnClick = {handleBtnClick}
                 key = {item.id}
+                id = {item.id}
                 image= {item.image}
                 name= {item.name}
                 />
             ))}
+            </div>
             {!project ? (
-                <h3>Click to Learn More About My Projects</h3>
+                <h3 className="text-center mt-3">Click to Learn More About My Projects</h3>
             ) : (
                 <ProjectDetail
-                name = {project.name}
-                image = {project.image}
-                links = {project.links}
-                description = {project.description}
-                tech = {project.tech} 
+                name = {project[0].name}
+                image = {project[0].image}
+                links = {project[0].links}
+                description = {project[0].description}
+                tech = {project[0].tech} 
                 />
             )}
         </div>
