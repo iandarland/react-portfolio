@@ -2,6 +2,7 @@ import {React, useState} from "react";
 import Projects from "../../projects.json"
 import ProjectCard from "../../components/ProjectCard"
 import ProjectDetail from "../../components/ProjectDetail";
+import "./style.css"
 
 // const [project, setProject] = useState()
 
@@ -24,7 +25,8 @@ function Portfolio () {
 
 
     return(
-        <div className="card">
+        <div className= "backstyle">
+        <div className="card clearback">
             <div className="d-flex mt-3">
             {projectList.map(item => (
                 <ProjectCard 
@@ -47,6 +49,7 @@ function Portfolio () {
                 tech = {project[0].tech} 
                 />
             )}
+        </div>
         </div>
     )
 }
