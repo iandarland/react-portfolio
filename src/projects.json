@@ -31,5 +31,39 @@
             "gitHub": "https://www.google.com",
             "deployed": "https://www.google.com"
         }
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": "https://github.com/iandarland/weather-dashboard-hw-06/raw/fc2c2aae225f37565ab5d63d140f923d37890f9d/assets/Weather%20Dashboar.png",
+        "description": "Search for up to date weather information.",
+        "tech": ["API Calls", "HTML", "CSS", "Javascript", "Bootstrap", "Jquery"],
+        "links": {
+            "gitHub": "https://github.com/iandarland/weather-dashboard-hw-06",
+            "deployed": "https://iandarland.github.io/weather-dashboard-hw-06/"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Employee Directory",
+        "image": "https://github.com/iandarland/employee-directory/raw/main/src/assets/demo.png",
+        "description": "View, search and sort your list of employees",
+        "tech": ["React", "API Calls", "HTML", "CSS", "Javascript", "Bootstrap", "Jquery"],
+        "links": {
+            "gitHub": "https://github.com/iandarland/employee-directory",
+            "deployed": "https://employee-directory-iand.herokuapp.com/"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Day Planner",
+        "image": "https://github.com/iandarland/day-planner-hw-05/raw/main/assets/images/Work%20Day%20Schedul.png?raw=true",
+        "description": "Plan your say with the day planner. Inputs are saved in local storage for the day and refresh at the end of each day.",
+        "tech": ["HTML", "CSS", "Javascript", "Bootstrap", "Jquery", "Local Storage"],
+        "links": {
+            "gitHub": "https://github.com/iandarland/day-planner-hw-05",
+            "deployed": "https://iandarland.github.io/day-planner-hw-05/"
+        }
     }
+    
 ]

@@ -26,8 +26,8 @@ function Portfolio () {
 
     return(
         <div className= "backstyle">
-        <div className="card kitten">
-            <div className="d-flex mt-3">
+        <div className="card kitten d-flex">
+            <div className="d-flex mt-3 card-columns justify-content-center">
             {projectList.map(item => (
                 <ProjectCard 
                 handleBtnClick = {handleBtnClick}
