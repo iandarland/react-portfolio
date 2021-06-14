@@ -23,13 +23,13 @@
     },
     {
         "id": 3,
-        "name": "TBD",
-        "image": "https://66.media.tumblr.com/de0dd989d36c17235b521171edd96965/tumblr_inline_ny8x5mt0nR1qhcsyp_500.png",
-        "description": "Something Exciting is Coming",
-        "tech": ["TBD", "TBD", "TBD"],
+        "name": "Playdate",
+        "image": "https://i.ibb.co/7X9T42w/Screen-Shot-2021-06-14-at-2-28-12-PM.png",
+        "description": "Social media network connecting parents with other parents and bringing communities together.",
+        "tech": ["React", "JSX", "CSS", "Google Maps API", "axios", "Bootstrap", "Prime React", "Auth0", "MongoDB", "Monoose", "Heroku", "Github", "Monogo Atlas"],
         "links": {
-            "gitHub": "https://www.google.com",
-            "deployed": "https://www.google.com"
+            "gitHub": "https://github.com/jenna4285/playdate",
+            "deployed": "https://ut-playdate.herokuapp.com/"
         }
     },
     {
