@@ -10,7 +10,7 @@ function Contact() {
         <div className="card-text ml-5 mt-5 mb-5">
           <p className="mb2"><a href="https://github.com/iandarland"><i className="fab fa-github"></i> @iandarland</a><br/></p>
           <p className="mb2"><a href="https://www.linkedin.com/in/ian-darland-450369a0/"><i class="fab fa-linkedin"></i> @iandarland</a><br/></p>
-          <p className="mb2"><a href = "mailto: ianpdarland@gmail.com"><i class="fas fa-envelope-open-text"></i>  Email Ian</a></p>
+          <p className="mb2"><a href = "mailto: ianpdarland@gmail.com"><i class="fas fa-envelope-open-text"></i> ianpdarland@gmail.com</a></p>
         </div>
       </div>
   </div>

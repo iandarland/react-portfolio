@@ -16,7 +16,7 @@ function About() {
         <Card.Text className="m-2 mt-5 text-left">
           I am a web development enthusiest and recent graduate of UT Austin's
           full stack web development bootcamp. I am passionate about continually
-          building knowledge in different facites of webdevelopment. Currently
+          building knowledge in different facets of web development. Currently
           proficient in front end frameworks, building and maintaining
           databases, Javascript, React, Bootstrap, Handlebars, NodeJS, MySQL,
           MongoDB and QA. Open to opportunities that will challange my knowlege
